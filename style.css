@@ -1,0 +1,32 @@
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+.box {
+	width: 30%;
+	display: inline-block;
+	height: 100px;
+	background-color: #68228B;
+	border-radius: 9px;
+
+}
+body {
+	font-family: 'Pacifico', cursive;
+	background-color: #BDA0CB
+}
+a {
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 30px;
+
+
+}
+a p {
+	position: relative;
+
+	font-size: 26px
+}
+h1 {
+	font-size: 40px
+}

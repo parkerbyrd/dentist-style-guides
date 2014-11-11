@@ -1,0 +1,85 @@
+.container {
+	width:1300px;
+	margin-left:20px;
+}
+/* Page Styles */
+h1, h2, h3, h4, h5, h6, body {
+	font-family: "Futura";
+	font-weight: 400;
+
+}
+h1 {
+	font-size: 46px;
+}
+h2 { 
+	font-size:30px;
+	line-height: 40px;
+}
+p {
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 22px;
+}
+.header {
+	text-align: center;
+	line-height: 1;
+	border-bottom: 3px solid gray;
+}
+
+
+.colors	{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.color1 {
+	background-color: #2f2f32;
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+}
+.color2 {
+	background-color: #ffffff;
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+.color3 {
+	background-color: #c8dc5b;
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+}
+.color4 {
+	background-color: #754a1d;
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+}
+.color5 {
+	background-color: #87c9cf;
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+}
+
+
+
+
+.icons img {
+	height: 80px;
+	width: 80px;
+}
+.copy {
+	background-color: #754a1d;
+	padding: 20px;
+	width:600px;
+	color: white;
+
+}
+.textures img {
+	height:200px;
+	width: 300px;
+	margin-right: 20px;
+}
