@@ -1,83 +1,23 @@
-.container {
-	width:1200px;
-	margin: 0 auto;
-}
-/* Page Styles */
-h1, h2, h3, h4, h5, h6, body {
-	font-family: "Helvetica Neue";
-	font-weight: 400;
+/*
+Errno::ENOENT: No such file or directory - main.scss
 
-}
-h1 {
-	font-size: 46px;
-}
-h2 { 
-	font-size:30px;
-	line-height: 40px;
-}
-p {
-	font-size: 18px;
-	font-weight: 200;
-	line-height: 22px;
-}
-.header {
-	text-align: center;
-	line-height: 1;
-	border-bottom: 3px solid gray;
-}
-
-
-.colors	{
-	display: inline-block;
-	margin-right: 20px;
-}
-
-.color1 {
-	background-color: #c1b388;
-	width:100px;
-	height:100px;
-	border-radius: 50%;
-}
-.color2 {
-	background-color: #bebab0;
-	width:100px;
-	height:100px;
-	border-radius: 50%;
-}
-.color3 {
-	background-color: #aac1bf;
-	width:100px;
-	height:100px;
-	border-radius: 50%;
-}
-.color4 {
-	background-color: #ce8e8e;
-	width:100px;
-	height:100px;
-	border-radius: 50%;
-}
-.color5 {
-	background-color: #545454;
-	width:100px;
-	height:100px;
-	border-radius: 50%;
-}
-
-
-
-
-.icons img {
-	height: 80px;
-	width: 80px;
-}
-.copy {
-	background-color: #aac1bf;
-	padding: 20px;
-	width:600px;
-
-}
-.textures img {
-	height:200px;
-	width: 300px;
-	margin-right: 20px;
-}
+Backtrace:
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:481:in `read'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:481:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:293:in `watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/plugin.rb:108:in `method_missing'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/exec/sass_scss.rb:370:in `watch_or_update'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/exec/sass_scss.rb:50:in `process_result'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/exec/base.rb:52:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/exec/base.rb:19:in `parse!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/bin/sass:13:in `<top (required)>'
+/usr/bin/sass:23:in `load'
+/usr/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory - main.scss"; }

@@ -1,0 +1,75 @@
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+
+/* Page Styles */
+h1, h2, h3, h4, h5, h6, body {
+  font-family: "Helvetica Neue";
+  font-weight: 400; }
+
+h1 {
+  font-size: 46px; }
+
+h2 {
+  font-size: 30px;
+  line-height: 40px; }
+
+p {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 22px; }
+
+.header {
+  text-align: center;
+  line-height: 1;
+  border-bottom: 3px solid gray; }
+
+.colors {
+  display: inline-block;
+  margin-right: 20px; }
+
+.color1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #c1b388; }
+
+.color2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #bebab0; }
+
+.color3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #aac1bf; }
+
+.color4 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ce8e8e; }
+
+.color5 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #545454; }
+
+.icons img {
+  height: 80px;
+  width: 80px; }
+
+.copy {
+  background-color: #aac1bf;
+  padding: 20px;
+  width: 600px; }
+
+.textures img {
+  height: 200px;
+  width: 300px;
+  margin-right: 20px; }
+
+/*# sourceMappingURL=main.css.map */
